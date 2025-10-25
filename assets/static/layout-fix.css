@@ -1,0 +1,54 @@
+/* Layout fixes for GitHub Pages deployment */
+
+/* Ensure proper box-sizing */
+* {
+  box-sizing: border-box;
+}
+
+/* Fix for text positioning and columns */
+.w-element {
+  position: relative;
+}
+
+/* Ensure proper text padding and positioning */
+.c1cnr673 {
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+/* Fix for column layouts */
+.cr2upfx {
+  display: grid;
+  gap: 1rem;
+}
+
+/* Ensure text is visible in columns */
+.c1rsy3ds {
+  color: inherit;
+  line-height: 1.5;
+}
+
+/* Fix for responsive text */
+@media (max-width: 768px) {
+  .c1cnr673 {
+    padding: 0.5rem;
+  }
+  
+  .cr2upfx {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Ensure proper spacing */
+.cv3cozh {
+  margin-bottom: 1rem;
+}
+
+/* Fix for text alignment */
+.ce8mlio {
+  text-align: center;
+}
+
+.c1bvpsix {
+  text-align: left;
+}
